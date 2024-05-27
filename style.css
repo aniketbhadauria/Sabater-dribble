@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Niconne&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 130%;
+    background-image:url(sabater.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav{
+    width:100%;
+    height:10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lft-nav{
+    padding-left:30px;
+    font-size: 18px;
+    color: white;
+}
+.ri-circle-fill{
+font-size: 30px;
+}
+#first-cir{
+    margin-right: -8px;
+}
+.rght-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+    padding-right:60px;
+    font-size: 18px;
+}
+.right-nav:hover{
+    color: rgba(195, 255, 0, 0.879);
+}
+.rght-nav a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-family: 'Cambria';
+    font-weight: 400;
+    text-transform: uppercase;
+  
+}
+.content{
+    position: relative;
+    width: 100%;
+    height: 90%;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: end;
+   flex-direction: column;
+   overflow: hidden;
+}
+.content .top{
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content h1{
+    color: rgba(195, 255, 0, 0.879);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 550px;
+    font-family: 'Anton';
+    margin-top: -150px;
+    margin-bottom: -150px;
+}
+.content .btm{
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+}
+h3{
+    position: absolute;
+    font-size: 250px;
+    height: 10%;
+    color: white;
+    z-index:10px ;
+    font-family: "Niconne", cursive;
+    top: 50%;
+    rotate: -25deg;
+}
